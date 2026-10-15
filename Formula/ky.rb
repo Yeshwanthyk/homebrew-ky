@@ -2,27 +2,27 @@
 class Ky < Formula
   desc "Your own durable agent on your Cloudflare account"
   homepage "https://github.com/Yeshwanthyk/ky-durable"
-  version "0.2.6"
+  version "0.2.7"
 
   on_macos do
     on_arm do
-      url "https://github.com/Yeshwanthyk/ky-durable/releases/download/v0.2.6/ky-darwin-arm64.tar.gz"
-      sha256 "7f466102a1987360375d276b286e5a2b94d4c07c31f5be1e710b3819f770390d"
+      url "https://github.com/Yeshwanthyk/ky-durable/releases/download/v0.2.7/ky-darwin-arm64.tar.gz"
+      sha256 "c95a0382023ad81357cc6969445cc4cb3345618119114e0887a4069e20171c17"
     end
     on_intel do
-      url "https://github.com/Yeshwanthyk/ky-durable/releases/download/v0.2.6/ky-darwin-x64.tar.gz"
-      sha256 "75ccd9e4c4031985823b5433b3b238cfb2f99ea430892f4bed0cd9afef51c4a8"
+      url "https://github.com/Yeshwanthyk/ky-durable/releases/download/v0.2.7/ky-darwin-x64.tar.gz"
+      sha256 "e21148a59a83f0e754eae789463cfeee74bd1a3bf0c03e6e04f82067f0eea0dc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Yeshwanthyk/ky-durable/releases/download/v0.2.6/ky-linux-arm64.tar.gz"
-      sha256 "03bfffbdef4d680f59baed1b410d67c427d4b1b49cbbed1f3ce637613a30dee3"
+      url "https://github.com/Yeshwanthyk/ky-durable/releases/download/v0.2.7/ky-linux-arm64.tar.gz"
+      sha256 "92cb2d4cb418944868b7bb2b11707bbcaacf3a70a95c00eb64bde4dca27ec666"
     end
     on_intel do
-      url "https://github.com/Yeshwanthyk/ky-durable/releases/download/v0.2.6/ky-linux-x64.tar.gz"
-      sha256 "c251f45763b3d3f6e6de0d989db5d60fcd2746aa66cd9b58bb69a6c3e97e278d"
+      url "https://github.com/Yeshwanthyk/ky-durable/releases/download/v0.2.7/ky-linux-x64.tar.gz"
+      sha256 "7178268d3d088f36987b7bb830eb795914ba4828fdbf161adc21424c3a16c18d"
     end
   end
 
